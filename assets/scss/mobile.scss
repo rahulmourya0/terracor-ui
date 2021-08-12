@@ -7,13 +7,13 @@
 ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) {
-	.deatils-section {
-		.banner-image {
-			.banner-title {
-				font-size: $font-48;
-			}
-		}
-	}
+	// .deatils-section {
+	// 	.banner-image {
+	// 		.banner-title {
+	// 			font-size: $font-48;
+	// 		}
+	// 	}
+	// }
 }
 
 /*
@@ -52,26 +52,6 @@
 			}
 		}
 	}
-	// .deatils-section {
-	// 	.banner-image {
-	// 		.banner-title {
-	// 			top: 90%;
-	// 			font-size: $font-32;
-	// 			left: 40%;
-	// 			transform: translate(-40%, -50%);
-	// 		}
-	// 	}
-	// 	.beauty-info {
-	// 		.first-ttile {
-	// 			font-size: $font-28;
-	// 		}
-	// 	}
-	// }
-	// .feature-section {
-	// 	.feature-main-title {
-	// 		font-size: $font-28;
-	// 	}
-	// }
 }
 
 //landscape

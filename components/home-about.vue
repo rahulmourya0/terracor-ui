@@ -151,15 +151,24 @@
 	<div class="get-terracor-block" id="get-terracor">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-12 m-auto">
+				<div class="col-md-5 col-sm-12 m-auto">
 					<div class="get-terracor-image text-center pb-4">
 						<b-img src="../assets/images/get-terra.png" fluid alt="Responsive image"></b-img>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12 m-auto">
+				<div class="col-md-7 col-sm-12 m-auto">
 					<div class="get-terracor-text">
-						<b-img src="../assets/images/appstore.png" fluid alt="Responsive image"></b-img>
+						<!-- <b-img src="../assets/images/appstore.png" fluid alt="Responsive image"></b-img> -->
+						<h1>Get The Terra cor <span class="gradient-text">Mobile App</span></h1>
 					</div>	
+					<div class="row">
+						<div class="col m-auto get-terracor-mob">
+							<b-img src="../assets/images/google-play.png" fluid alt="Responsive image"></b-img>
+						</div>
+						<div class="col m-auto get-terracor-mob">
+							<b-img src="../assets/images/app-store.png" fluid alt="Responsive image"></b-img>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -252,6 +261,18 @@ export default {
 	}
 }
 
+.get-terracor-block{
+	.get-terracor-text h1{
+		font-size: 35px;
+		font-weight: 400;
+	}
+	.get-terracor-text h1 span{
+		font-size: 35px;
+		font-weight: 700;
+		color: linear-gradient(180deg, #FFFFFF 31.94%, #CACACA 53.79%, #FFFFFF 73.61%);
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.create-account-block{
 	.create-account-text h1{
@@ -291,12 +312,24 @@ export default {
 	}
 }
 
-// .get-terracor-block{
-// 	.get-terracor-image img{
-	
-// 	}
-// }
+.get-terracor-block{
+	.get-terracor-text h1{
+		font-size: 19px;
+		font-weight: 400;
+	}
+	.get-terracor-text h1 span{
+		font-size: 19px;
+		font-weight: 700;
+		color: linear-gradient(180deg, #FFFFFF 31.94%, #CACACA 53.79%, #FFFFFF 73.61%);
+	}
+}
 
+}
+
+@media screen and (max-width: 576px) {
+.get-terracor-text h1 , .get-terracor-mob{
+	text-align: center;
+}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');

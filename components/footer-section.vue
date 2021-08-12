@@ -19,7 +19,7 @@
 	font-weight: 500;
 	color: $white;
 	font-size: 0.75rem;
-	line-height: 200%;
+	// line-height: 200%;
 }
 
 @media only screen and (max-width: 767px) {
